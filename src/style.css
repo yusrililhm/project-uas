@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* css reset */
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    transition: all linear .3s;
+}
+/* css reset end */
+
+/* section height */
+section {
+    height: 100vh;
+}
+/* section height end */
+
+/* navbar start */
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    box-shadow: 0 8px 3px rgba(1, 1, 1, .5);
+    backdrop-filter: blur(8px);
+    font-size: 1.3rem;
+}
+
+header .logo {
+    margin-left: 1rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+header .logo a {
+    color: #112570;
+}
+
+header .logo span {
+    color: orange;
+}
+
+header .navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+}
+
+header .navbar ul li {
+    width: 6rem;
+    margin-right: 1rem;
+    padding: .4rem 0;
+}
+
+header .navbar ul li a {
+    color: #112570;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* hover animation */
+header .navbar ul li:hover {
+    border-bottom: #112570 2px solid;
+}
+
+header .navbar ul li a:hover {
+    color: #112540;
+}
+/* navbar end */
