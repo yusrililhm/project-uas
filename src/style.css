@@ -87,15 +87,56 @@ header .navbar ul li a:hover {
 
 .container .content {
     width: 50%;
+    margin: 0 10%;
+}
+
+.container .content h3 {
+    font-size: 2rem;
+    margin-top: -1rem;
+}
+
+.container .content h2 {
+    font-size: 2.5rem;
+    margin-top: -1rem;
+}
+.container .content span {
+    font-size: 2rem;
+    margin-top: -1rem;
+}
+
+.container .content .sosmed {
+    margin-left: 10px 0;
+}
+
+.container .content .sosmed i {
+    font-size: 1.5rem;
+    background-color: #112570;
+    color: white;
+    padding: .5rem;
+    border-radius: 50%;
+}
+
+.container .content .btn {
+    border-radius: 1rem;
+    background-color: #112570;
+    text-align: center;
+    width: 30%;
+    padding: .3rem;
+}
+
+.container .content .btn a {
+    color: white;
+    font-weight: bold;
 }
 
 .container .image {
     text-align: center;
     width: 50%;
+    margin: 0 10%;
 }
 
 .container .image img {
-    width: 30%;
+    width: 70%;
     border-radius: 50%;
 }
 /* header end */
