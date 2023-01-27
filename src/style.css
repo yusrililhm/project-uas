@@ -28,7 +28,7 @@ header {
     align-items: center;
     justify-content: space-between;
     height: 4rem;
-    box-shadow: 0 8px 3px rgba(1, 1, 1, .5);
+    box-shadow: 0 5px 3px rgba(1, 1, 1, .5);
     backdrop-filter: blur(8px);
     font-size: 1.3rem;
 }
@@ -76,3 +76,26 @@ header .navbar ul li a:hover {
     color: #112540;
 }
 /* navbar end */
+
+/* header start */
+.container {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container .content {
+    width: 50%;
+}
+
+.container .image {
+    text-align: center;
+    width: 50%;
+}
+
+.container .image img {
+    width: 30%;
+    border-radius: 50%;
+}
+/* header end */
