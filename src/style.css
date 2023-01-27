@@ -11,6 +11,11 @@
 }
 /* css reset end */
 
+/* h1 */
+h1 {
+    text-align: center;
+}
+
 /* section height */
 section {
     height: 100vh;
@@ -40,7 +45,7 @@ header .logo {
 }
 
 header .logo a {
-    color: #112570;
+    color: white;
 }
 
 header .logo span {
@@ -62,7 +67,7 @@ header .navbar ul li {
 }
 
 header .navbar ul li a {
-    color: #112570;
+    color: white;
     font-weight: bold;
     text-align: center;
 }
@@ -73,7 +78,7 @@ header .navbar ul li:hover {
 }
 
 header .navbar ul li a:hover {
-    color: #112540;
+    color: #112570;
 }
 /* navbar end */
 
@@ -83,25 +88,22 @@ header .navbar ul li a:hover {
     align-items: center;
     justify-content: center;
     display: flex;
+    text-align: center;
+    background-image: url(../assets/bgimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .container .content {
-    width: 50%;
-    margin: 0 10%;
+    color: white;
 }
 
-.container .content h3 {
-    font-size: 2rem;
-    margin-top: -1rem;
+.container .content h4 {
+    font-size: 1rem;
 }
 
 .container .content h2 {
     font-size: 2.5rem;
-    margin-top: -1rem;
-}
-.container .content span {
-    font-size: 2rem;
-    margin-top: -1rem;
 }
 
 .container .content .sosmed {
@@ -109,34 +111,100 @@ header .navbar ul li a:hover {
 }
 
 .container .content .sosmed i {
-    font-size: 1.5rem;
-    background-color: #112570;
+    font-size: 1.2rem;
+    background-color: rgba(1, 1, 1, .2);
     color: white;
     padding: .5rem;
     border-radius: 50%;
 }
+/* header end */
 
-.container .content .btn {
-    border-radius: 1rem;
-    background-color: #112570;
-    text-align: center;
-    width: 30%;
-    padding: .3rem;
+/* about start */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
-.container .content .btn a {
-    color: white;
-    font-weight: bold;
-}
-
-.container .image {
-    text-align: center;
+.about .image {
     width: 50%;
-    margin: 0 10%;
+    text-align: center;
 }
 
-.container .image img {
-    width: 70%;
+.about .image img {
+    width: 50%;
     border-radius: 50%;
 }
-/* header end */
+
+.about .about-content {
+    width: 50%;
+    margin: 0 5%;
+}
+
+.about .about-content h1 {
+    padding-top: 5rem;
+}
+
+.about .about-content .biodata {
+    display: flex;
+}
+
+.about .about-content .biodata p {
+    margin-right: 1rem;
+}
+/* about end */
+
+/* project start */
+#project {
+    background-color: #112570;
+}
+/* project end */
+
+/* contact start */
+.container-contact {
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* background-image: url(../assets/autumn-scenery.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.container-contact .content-contact {
+    color: #112570;
+}
+
+.container-contact .content-contact .sosmed {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container-contact .content-contact .sosmed .sosmed-contact {
+    background-color: #112570;
+    margin: 0 1rem;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container-contact .content-contact .sosmed .sosmed-contact a {
+    color: white;
+    font-size: 2rem;
+}
+/* contact end */
+
+/* footer start */
+.footer {
+    left: 0;
+    right: 0;
+    background-color: #112570;
+}
+/* footer end */
