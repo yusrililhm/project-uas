@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    border: none;
     scroll-behavior: smooth;
     transition: all linear .3s;
 }
@@ -167,40 +168,88 @@ header .navbar ul li a:hover {
 /* about end */
 
 /* contact start */
-.container-contact {
+#contact {
     height: 100vh;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    background-color: orange;
-}
-
-.container-contact .content-contact {
-    color: #112570;
-}
-
-.container-contact .content-contact .sosmed {
-    text-align: center;
     justify-content: center;
     align-items: center;
     display: flex;
 }
 
-.container-contact .content-contact .sosmed .sosmed-contact {
-    background-color: #112570;
-    margin: 0 1rem;
-    width: 5rem;
-    height: 5rem;
-    text-align: center;
+.container-contact {
     justify-content: center;
     align-items: center;
     display: flex;
+    width: 50rem;
+    box-shadow: 1rem 1rem 1rem rgba(1, 1, 1, .3);
 }
 
-.container-contact .content-contact .sosmed .sosmed-contact a {
+/* contact form */
+
+.container-contact .form {
+    width: 50%;
+    background: linear-gradient(to bottom right, #2d1650, #d400aa);
+    height: 20rem;
+    padding: 2rem;
+}
+
+.container-contact .form form {
+    margin-left: 1rem;
+}
+
+.container-contact .form h2 {
     color: white;
-    font-size: 2rem;
+}
+
+.container-contact .form input {
+    font-size: .9rem;
+    background-color: transparent;
+    border-bottom: solid 1px #112570;
+    width: 100%;
+    color: white;
+}
+
+.container-contact .form textarea {
+    font-size: .9rem;
+    background-color: transparent;
+    border: 1px solid #112570;
+    width: 100%;
+    height: 7rem;
+    resize: none;
+    color: white;
+}
+
+.container-contact .form button {
+    background-color: #ff00cc;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+/* contact us */
+
+.container-contact .contact-us {
+    width: 50%;
+    height: 20rem;
+    background-color: #fff;
+    margin-left: 1rem;
+    padding: 2rem;
+}
+
+.container-contact .contact-us p {
+    font-size: .9rem;
+}
+
+.container-contact .contact-us span {
+    font-weight: 600;
+}
+
+.container-contact .contact-us ul {
+    list-style-type: none;
+}
+
+.container-contact .contact-us ul li p{
+    margin: 1rem;
 }
 /* contact end */
 
