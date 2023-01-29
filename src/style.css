@@ -60,10 +60,11 @@ header .navbar ul {
     align-items: center;
     text-align: center;
     list-style-type: none;
+    margin: 0 1rem;
 }
 
 header .navbar ul li {
-    width: 6rem;
+    width: 5rem;
 }
 
 header .navbar ul li a {
@@ -148,10 +149,6 @@ header .navbar ul li a:hover {
     width: 50%;
 }
 
-#about h1 {
-    font-size: 2rem;
-}
-
 .about .about-content .biodata {
     display: flex;
 }
@@ -169,12 +166,6 @@ header .navbar ul li a:hover {
 }
 /* about end */
 
-/* project start */
-#project {
-    background-color: #112570;
-}
-/* project end */
-
 /* contact start */
 .container-contact {
     height: 100vh;
@@ -183,9 +174,6 @@ header .navbar ul li a:hover {
     align-items: center;
     display: flex;
     background-color: orange;
-    /* background-image: url(../assets/autumn-scenery.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 
 .container-contact .content-contact {
@@ -284,6 +272,7 @@ hr {
     text-align: center;
     font-weight: bold;
     font-size: 1rem;
+    padding: 1rem;
 }
 
 #footer h4 span {
