@@ -145,6 +145,7 @@ header .navbar ul li a:hover {
     width: 50%;
     border-radius: 50%;
     filter: grayscale(100%);
+    margin-left: 10%;
 }
 
 .about .about-content {
