@@ -6,9 +6,9 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    border: none;
     scroll-behavior: smooth;
     transition: all linear .3s;
+    border: none;
 }
 /* css reset end */
 
@@ -166,6 +166,19 @@ header .navbar ul li a:hover {
     margin-bottom: 1rem;
     font-size: .9rem;
 }
+
+/* button */
+.about .about-content .btn a {
+    color: white;
+    background-color: #ff00cc;
+    font-weight: bold;
+    padding: .4rem 1.5rem;
+    border-radius: 1rem;
+}
+
+.about .about-content .btn a:hover {
+    background-color: #d400aa;
+}
 /* about end */
 
 /* contact start */
@@ -229,6 +242,9 @@ header .navbar ul li a:hover {
     cursor: pointer;
 }
 
+.container-contact .form button:hover {
+    background-color: #d400aa;
+}
 /* contact us */
 
 .container-contact .contact-us {
@@ -257,7 +273,7 @@ header .navbar ul li a:hover {
 
 /* footer start */
 #footer {
-    background-color: #0e0141;
+    background-color: #0a0030;
     left: 0;
     right: 0;
 }
@@ -314,9 +330,13 @@ header .navbar ul li a:hover {
     padding: .3rem .6rem;
 }
 
+.footer .social .sosmed-social a:hover {
+    background-color: orange;
+}
+
 hr {
     margin: 0 10%;
-    background-color: white;
+    border: .1rem solid white;
 }
 
 #footer h4 {
@@ -331,3 +351,65 @@ hr {
     color: orange;
 }
 /* footer end */
+
+/* resume.html */
+#resume {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1rem 1rem 1rem rgba(1, 1, 1, .3);
+}
+
+.resume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1rem 1rem 1rem rgba(1, 1, 1, .3);
+}
+
+.resume .mybiodata {
+    background: linear-gradient(to bottom right, #2d1650, #d400aa);
+    height: 20rem;
+    padding: 1rem;
+    width: 20rem;
+    text-align: center;
+    color: white;
+}
+
+.resume .mybiodata img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.resume .resume-content .btn {
+    margin-top: 2.5rem;
+}
+
+.resume .resume-content .btn a {
+    color: white;
+    background-color: #ff00cc;
+    border-radius: 1rem;
+    padding: .2rem 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.resume .resume-content .btn a:hover {
+    background-color: #d400aa;
+}
+
+.resume .resume-content {
+    height: 20rem;
+    padding: 1rem;
+    width: 30rem;
+    background-color: white;
+}
+
+.resume .resume-content table {
+    padding-top: 2rem;
+}
+
+.resume .resume-content td {
+    padding-right: .5rem;
+}
