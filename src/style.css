@@ -498,6 +498,14 @@ hr {
         box-shadow: .5rem .5rem .5rem rgba(1, 1, 1, .2);
     }
 
+    .container-contact .form input {
+        font-size: .8rem;
+    }
+
+    .container-contact .form textarea {
+        font-size: .8rem;
+    }
+
     .container-contact .contact-us {
         display: none;
     }
