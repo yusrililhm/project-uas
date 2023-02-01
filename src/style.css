@@ -552,6 +552,11 @@ hr {
         font-size: .9rem;
     }
 
+    .resume .resume-content {
+        width: 50%;
+        height: 20rem;
+    }
+
     .resume .mybiodata {
         display: none;
     }
