@@ -93,7 +93,6 @@ header .navbar ul li a:hover {
     justify-content: center;
     display: flex;
     text-align: center;
-    background-color: pink;
     background-image: url(./assets.jpg);
     background-size: cover;
     background-repeat: no-repeat;
