@@ -459,7 +459,7 @@ hr {
     }
 
     .about .image img {
-        width: 40%;
+        width: 50%;
     }
 
     .about .about-content {
@@ -476,6 +476,10 @@ hr {
 
     .about .about-content p {
         font-size: .9rem;
+    }
+
+    .about .about-content .biodata {
+        display: block;
     }
 
     .about .about-content .biodata p {
