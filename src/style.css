@@ -479,7 +479,7 @@ hr {
     }
 
     .about .about-content .biodata p {
-        font-size: .8rem;
+        font-size: .85rem;
     }
 
     .about .about-content .btn a {
@@ -506,7 +506,49 @@ hr {
         font-size: .8rem;
     }
 
+    .container-contact .form button {
+        font-size: .9rem;
+        padding: .3rem 1rem;
+    }
+
     .container-contact .contact-us {
+        display: none;
+    }
+
+    /* footer */
+
+    #footer h4 {
+        font-size: 1rem;
+    }
+
+    .footer {
+        font-size: .9rem;
+    }
+
+    .footer .links {
+        display: none;
+    }
+
+    .footer .social {
+        width: 50%;
+    }
+
+    .footer .social .sosmed-social a {
+        font-size: .9rem;
+        padding: .2rem .4rem;
+    }
+
+    .footer .greeting {
+        width: 50%;
+    }
+
+    /* resume */
+
+    .resume {
+        font-size: .9rem;
+    }
+
+    .resume .mybiodata {
         display: none;
     }
 
