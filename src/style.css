@@ -550,6 +550,7 @@ hr {
 
     .resume {
         font-size: .9rem;
+        display: block;
     }
 
     .resume .resume-content {
