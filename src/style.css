@@ -93,7 +93,7 @@ header .navbar ul li a:hover {
     justify-content: center;
     display: flex;
     text-align: center;
-    background-image: url(./assets.jpg);
+    background-image: url(/assets/bgimage.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
